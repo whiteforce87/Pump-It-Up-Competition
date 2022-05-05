@@ -1,18 +1,25 @@
 # Pump-It-Up-Competition
 “Drivendata.org" Tanzania Water Pump Classification Competition
 
-Results:
+During EDA, some columns were dropped, filled with proper values and some columns were recreated. After EDA there were 177 columns with added dummified features. Finally GridSearch CV was applied. In the end, XGBoost gave the best accuracy score.
 
-XGBoost
+Accuracy Results:
+
+1. XGBoost:
 0.82
-Random Forest
+
+2. Random Forest
 0.8015
-Gradient Boosting
+
+3. Gradient Boosting
 0.791
-Decision Tree
+
+4. Decision Tree
 0.746
-Logistic Regression
+
+5.Logistic Regression
 0.72
-KNN
+
+6.KNN
 0.70
 
